@@ -17,7 +17,6 @@ class RPS < Sinatra::Base
   end
 
   get '/play' do
-    # game
     erb :play
   end
 
@@ -28,12 +27,10 @@ class RPS < Sinatra::Base
   end
 
   get '/weapon' do
-    # game
     erb :weapon
   end
 
   get '/result' do
-    # game
     erb :result
   end
 

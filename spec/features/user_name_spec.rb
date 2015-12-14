@@ -6,6 +6,6 @@ feature 'Enter user names' do
     # I would like to register my name before playing an online game
 
     sign_in_and_play
-    expect(page).to have_content 'Welcome to RPS, Tom!'
+    expect(page).to have_content 'Welcome to R.P.S.S.L., Tom!'
   end
 end
